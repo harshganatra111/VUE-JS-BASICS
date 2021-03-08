@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Basic 01</title>
+</head>
+<body class="bg-dark text-white">
+    <div class="container">
+        <div class="card vapp" style="width: 18rem;">
+            <img class="card-img-top" :src="myImg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-dark">{{heading}}</h5>
+              <p class="card-text text-dark">{{subHeading}}</p>
+              <a :href="URL" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
